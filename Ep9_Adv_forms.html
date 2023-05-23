@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLForms</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+         
+        <label for="1">Name</label>
+        <input type="text" name="name" id="1">
+        <br>
+        <br>
+        <label for="2">Email</label>
+        <input type="text" name="email" id="2" placeholder="abc@gmail.com">
+        <br>
+        <br>
+        <label for="3">Phone</label>
+        <input type="tel" name="phone" id="3">
+        <br>
+        <br>
+        <label for="4">Date of Birth</label>
+        <input type="date" name="dob" id="4">
+        <br>
+        <br>
+        <span>Gender:</span>
+        <label for="5">Male</label>
+        <input type="radio" name="radio" id="5">
+        
+        <label for="6">Female</label>
+        <input type="radio" name="radio" id="6">
+
+        <br>
+        <br>
+        <label for="7">Country:</label>
+        <select name="country" id="7">
+            <option value="us">United states</option>
+            <option value="india">India</option>
+            <option value="South korea">Southkorea</option>
+        </select>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Address </legend>
+        <br>
+        <br>
+        <label for="8">Street</label>
+        <input type="text" name="Street" id="8">
+        <br>
+        <br>
+        <label for="9">City</label>
+        <input type="text" name="city" id="9" placeholder="abc">
+        <br>
+        <br>
+        <label for="10">State</label>
+        <input type="text" name="state" id="10">
+        <br>
+        <br>
+        <label for="11">Zip Code</label>
+        <input type="number" name="zipcode" id="11">
+        
+        <br>
+        <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Information</legend>
+        <label for="12">Comments</label>
+        <textarea name="comments" id="12" cols="30" rows="10"></textarea>
+        <label for="13">I agree to the terms of service</label>
+        <input type="checkbox" name="comment" id="13">
+    </fieldset>
+
+    <button>SUBMIT</button>
+</body>
+</html>
